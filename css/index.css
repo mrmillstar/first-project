@@ -1,0 +1,266 @@
+/* main background image to add here and more later */
+body {
+  background-image:url("https://tempobot.net/images/bg.png"); 
+}
+
+
+/*Style the h1 heading*/
+.navbar h1{
+  color: white;
+}
+
+
+/* Style the h3 heading */
+.navbar h3{
+  color: white;
+}
+
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #232337;
+    overflow: auto;
+    text-align: center;
+    opacity: 80%;
+    
+}
+
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 23.728%; /* Width for all links change % to increase of decrease the width*/
+    text-align: center; /* If you want the text to be centered */
+}
+
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: #000;
+}
+
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+
+/* adding the first image to the top of the page and getting it into the right place */
+.first img {
+  float: right;
+  width: 800px;
+  height: auto;
+  right: 160px;
+  top: 30px;
+  border-radius: 15px;
+  position: relative;
+}
+
+
+/* adding the first h3 style */
+.first h3{
+  float:left;
+  margin-top: 200px;
+  background-color: #232337;
+  color: white !important;
+  position: relative;
+  z-index: 99;
+  background-color: #232337;
+  border-radius: 6px;
+  color: #232337;
+  display: block;
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  bottom: 100px;
+  left: 450px;
+  opacity: 80%;
+}
+
+
+/* adding the style to the first paragrath and adding the background border to it */
+.first p{
+  font-size:large;
+  float: left;
+  margin-right: 20px;
+  background-color: #232337;
+  color: white !important;
+  position: relative;
+  z-index: 99;
+  background-color: #232337;
+  border-radius: 6px;
+  color: #232337;
+  display: block;
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  top: 200px;
+  opacity: 80%;
+}
+
+
+.second h3{
+  /* adding the second h3 style */
+  float:left;
+  margin-top: 200px;
+  background-color: #232337;
+  color: white !important;
+  position: relative;
+  z-index: 99;
+  background-color: #232337;
+  border-radius: 6px;
+  color: #232337;
+  display: block;
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  left: 350px;
+  top: 400px;
+  opacity: 80%;
+}
+
+
+/* adding the style to the second paragrath and adding the background border to it */
+.second p{
+  font-size:large;
+  float: left;
+  margin-right: 20px;
+  background-color: #232337;
+  color: white !important;
+  position: relative;
+  z-index: 99;
+  background-color: #232337;
+  border-radius: 6px;
+  color: #232337;
+  display: block;
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  top: 400px;
+  left: 1020px;
+  opacity: 80%;
+}
+
+
+/* all img1 img2 img3 are for second section but under there own class */ 
+.img1 {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    float: left;
+    position: relative;
+    right: 600px;
+    top: 230px;
+}
+
+
+.img2 {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  float: left;
+  position: relative;
+  right: 550px;
+  top: 230px;
+}
+
+
+.img3 {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  float: left;
+  position: relative;
+  right: 500px;
+  top: 84px;
+}
+
+
+.third h3{
+  /* adding the second h3 style */
+  float:right;
+  margin-top: 200px;
+  background-color: #232337;
+  color: white !important;
+  position: relative;
+  z-index: 99;
+  background-color: #232337;
+  border-radius: 6px;
+  color: #232337;
+  display: block;
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  right: 1300px;
+  top: 420px;
+  opacity: 80%;
+}
+
+
+.third p{
+  font-size:large;
+  float: right;
+  margin-right: 20px;
+  background-color: #232337;
+  color: white !important;
+  position: relative;
+  z-index: 99;
+  background-color: #232337;
+  border-radius: 6px;
+  color: #232337;
+  display: block;
+  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  top: 300px;
+  right: 900px;
+  opacity: 80%;
+}
+
+
+.third img{
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+  float: right;
+  position: relative;
+  left: 500px;
+  top: 100px;
+}
+
+
+/* the footer to go on the bottom of the page*/
+footer{
+    position: relative;
+    top: 2000px;
+    width: 1895px;
+    height: 200px;
+    background-color: #232337;
+    overflow: auto;
+    text-align: center;
+    opacity: 80%;
+    color: white;
+}
